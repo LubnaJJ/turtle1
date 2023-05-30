@@ -148,6 +148,7 @@ section {
 
 
 
+
 .section4 {
     width: 40%;
     background-color: rgb(202, 202, 202);
@@ -178,6 +179,7 @@ section {
 }
 
 
+/* product cards */
 
 
 .section5 h1 {
@@ -263,7 +265,7 @@ section {
     border-radius: 20px;
 }
 
-
+/* footer */
 
 .footer {
     text-align: center;

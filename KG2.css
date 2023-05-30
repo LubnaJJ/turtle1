@@ -43,7 +43,7 @@ a.active, a:hover {
     transition: .5s;
 }
 
-
+/* nav drop down */
 
 nav ul li:hover ul {
     display: block;
@@ -252,7 +252,7 @@ section {
     margin-right: 5%;
 }
 
-
+/* footer */
 
 
 .footer {

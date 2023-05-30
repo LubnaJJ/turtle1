@@ -44,6 +44,8 @@ a.active, a:hover {
 }
 
 
+/* dropdown navigation*/
+
 
 nav ul li:hover ul {
     display: block;
@@ -85,6 +87,9 @@ section {
     background-size: cover;
     height: calc(100vh - 80px);
 }
+
+
+/* background image*/
 
 .bgimage{
     text-align: center;
@@ -254,6 +259,8 @@ img{
 }
 
 
+/* footer coding */
+
 .footer {
     text-align: center;
     margin-top: 140px;
@@ -275,7 +282,7 @@ img{
 }
 
 
-
+/* media tags for responsiveness */
 
 
 @media (max-width: 952px) {
@@ -326,7 +333,7 @@ img{
     }
 
 }
-@media (max-width: 760px) {
+@media (max-width: 500px) {
     .bgimage, .footer, nav {
         width: 100%;
     }
@@ -346,7 +353,7 @@ img{
         text-align: center;
     }
     .text {
-        width: 90%;
+        width: 50%;
     }
     .image {
         width: 80%;
@@ -364,6 +371,22 @@ img{
     width: 88%;
     margin-left: 2%;
    }
+}
+
+
+@media (max-width: 780px) {
+    .section3 h2 {
+        width: 80%;
+        text-align: center;
+    }
+    .section3 p {
+        width: 140%;
+        margin-left: -25%;
+    }
+    .section5, .section6 {
+        width: 84%;
+        margin-left: 3%;
+    }
 }
 
 
