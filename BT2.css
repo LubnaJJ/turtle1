@@ -343,8 +343,12 @@ section {
         width: 100%;
         margin-left: -15%;
     }
+    .bgimage {
+        width: 100%;
+    }
     .image4, .image5, .image6 {
         margin-left: 2.5%;
+        width: 50%;
     }
     .section-3 {
         width: 90%;
