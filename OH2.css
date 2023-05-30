@@ -142,7 +142,7 @@ section {
     margin: 40px;
     font-family: Arial, Helvetica, sans-serif;  
     display: inline-block; 
-    background-color: 2px black;
+    background-color: 1px 1px 2px black;
 }
 .section2:hover {
     box-shadow: 2px 2px 10px black;
@@ -172,6 +172,10 @@ section {
     font-family: Arial, Helvetica, sans-serif; 
     display: inline-block;  
 }
+
+
+/* right, downwards and the level of blur of the shadow */
+
 .section3:hover {
     box-shadow: 2px 2px 10px black;
 }

@@ -4,49 +4,56 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial scale=1.0">
         <title>Donation Form</title>
-        <link rel="stylesheet" href="PF.css">
+        <link rel="stylesheet" href="DF.css">
     </head>
     <body>
 
 
         <!-- donations form -->
+ 
 
-        
-        <form action="action">
-            <h1>Donations</h1>
-            <label for="name">Payer Name</label><br>
-            <input class="box1" name="name" id="name" placeholder="Enter Name"><br>
 
-            <label for="Email">Email</label><br>
-            <input class="box1" name="email" id="email" placeholder="Enter Email"><br>
 
-            <label for="Email">Donation Amount</label><br>
-            <input class="box1" name="Donation Amount" id="amount" placeholder="Enter Amount"><br>
+        <form>
+            <div class="box1">
 
-            <label for="cardnum">Card Number</label><br>
-            <input class="box1" name="number" id="number" placeholder="1234 1234 1234 1234"><br>
+            <h1>Donation</h1>
+            <label>
+            Payer name:<br> <input type="text" name="pname" id="name" placeholder="Name">
+            </label><br><br>
 
-            
-                <label for="cardexp">Card Expiry Month</label><br>
-            <input class="box1" type="text" name="month" id="month" placeholder="MM"><br>
-            
+            <label>
+            Email:<br> <input type="email" name="email" id="email" placeholder="Enter email">
+            </label><br><br>
 
-            
-                <label for="cardye">Card Expiry Year</label><br>
-            <input class="box1" type="text" name="year" id="year" placeholder="yyyy"><br>
-            
-            
-                 
-            <label for="cardCVC">Card CVC</label><br>
-            <input class="box1" type="text" name="cvc" id="cvc" placeholder="cvc"><br>
+            <label>
+            Donation:<br> <input type="text" name="donation" id="amount" placeholder="Enter amount">
+            </label><br><br>
 
-           
+            <label>
+                Card number:<br> <input type="text" name="number" id="number" placeholder="1234 1234 1234 1234">
+            </label><br><br>
+
+            <label>
+                Card expiry month:<br> <input type="text" name="month" id="month" placeholder="MM">
+            </label><br><br>
+
+            <label>
+                Card expiry year:<br> <input type="text" name="year" id="year" placeholder="yyyy">
+            </label><br><br>
+
             <button class="btn" type="text">Pay Now</button>
       
 
             <a href="P&D.html">
             <button class="btn" type="button">Close</button>
             </a>
+
+            </div>
+
+
         </form>
+
+
     </body>
 </html>

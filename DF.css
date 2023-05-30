@@ -4,7 +4,7 @@ body {
     background-color: #106396;
 }
 form {
-    width: 600px;
+    width: 300px;
     margin: 100px auto 0 auto;
     padding: 20px;
     box-shadow: 2px 4px 8px 0 #61a3e4;
@@ -19,15 +19,9 @@ h1 {
     border: none;
     border-radius: 15px;
     box-sizing: border-box;
-    margin: 10px 0 15px 0;
     background-color: #30475e;
 }
-.box1 {
-    display: inline-block;
-    border: none;
-    border-radius: 15px;
-    margin: 10px 0 15px 0;
-}
+ 
 .btn {
     width: 49%;
     padding: 10px;
@@ -35,7 +29,7 @@ h1 {
     border-radius: 15px;
     background-color: #30475e;
     font-size: 18px;
-    color: white;box-shadow: #30475e;
+ 
 }
 .btn:hover {
     background-color: #8caccd;
